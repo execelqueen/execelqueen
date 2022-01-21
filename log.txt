@@ -1,0 +1,167 @@
+12-29 21:16:09.579  1403  1403 D _V_VivoPmsImpl: removeCodePathLI call INSTALL TO rm  /data/vivo-apps/com.kwai.bulldog
+12-29 21:16:09.579  1403  1403 W _V_VivoPmsImpl: /data/vivo-apps/com.kwai.bulldog is not need remove.
+12-29 21:16:15.579  1403  1403 I SystemServerTiming: OnBootPhase_500_com.android.server.soundtrigger.SoundTriggerService
+12-29 21:16:15.579  1403  1403 D SoundTriggerService: onBootPhase: 500 : false
+12-29 21:16:15.579  1403  1403 I SystemServerTiming: OnBootPhase_500_com.android.server.trust.TrustManagerService
+12-29 21:16:20.129  1403  1453 I ActivityManager: Start proc 2579:com.vivo.smartmultiwindow/1000 for content provider {com.vivo.smartmultiwindow/com.vivo.smartmultiwindow.configs.AppConfigProvider}
+12-29 21:16:20.614  2579  2579 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1697 android.content.ContextWrapper.startService:720 com.vivo.smartmultiwindow.SmartMultiWindowLauncher.f:15 com.vivo.smartmultiwindow.SmartMultiWindowLauncher.onCreate:59 android.app.Instrumentation.callApplicationOnCreate:1242 
+12-29 21:16:20.636  2579  2579 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1697 android.content.ContextWrapper.startService:720 com.vivo.smartmultiwindow.SmartMultiWindowLauncher.i:19 com.vivo.smartmultiwindow.SmartMultiWindowLauncher.onCreate:62 android.app.Instrumentation.callApplicationOnCreate:1242 
+12-29 21:16:20.641  2579  2579 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1697 android.content.ContextWrapper.startService:720 com.vivo.smartmultiwindow.SmartMultiWindowLauncher.j:31 com.vivo.smartmultiwindow.SmartMultiWindowLauncher.onCreate:65 android.app.Instrumentation.callApplicationOnCreate:1242 
+12-29 21:16:20.651  2579  2579 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1697 android.content.ContextWrapper.startService:720 com.vivo.smartmultiwindow.SmartMultiWindowLauncher.j:62 com.vivo.smartmultiwindow.SmartMultiWindowLauncher.onCreate:65 android.app.Instrumentation.callApplicationOnCreate:1242 
+12-29 21:16:20.678  1403  2383 I _V_VivoWmsImpl: setDisplayWindowRotationControllerForMultiWindow callingUid:1000 callingPid:2579 controller:android.view.IDisplayWindowRotationController$Stub$Proxy@9876c3f
+12-29 21:16:22.467  2579  2579 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1136 android.content.ContextWrapper.sendBroadcast:468 com.vivo.smartmultiwindow.services.InitService.p:91 com.vivo.smartmultiwindow.services.InitService.g:0 com.vivo.smartmultiwindow.services.InitService$1.handleMessage:62 
+12-29 21:16:22.579  1403  2027 D _V_ActivityManager: StartMode packageName = com.vivo.daemonService ,pid = -1 ,alwaysRestrict = true ,startMode = 2 ,UidRec:UidRecord{b22b7b9 1000 PER  change:active|uncached procs:13 seq(0,0,0)}
+12-29 21:16:25.579  1403  2405 W ActivityManager: Unable to start service Intent { act=com.vivo.Tips.action.BIND_FREEZE_NOTI_SERVICE cmp=com.vivo.Tips/.service.TipsFreezeNotiService } U=0: not found
+12-29 21:16:29.579  1403  1434 D _V_VivoActivityTaskManagerServiceImpl: isMultiWindowExitedJustDefaultDisplay of false
+12-29 21:16:32.354  2579  2579 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1697 android.content.ContextWrapper.startService:720 android.content.ContextWrapper.startService:720 com.vivo.smartmultiwindow.receiver.BootReceiver.onReceive:79 android.app.ActivityThread.handleReceiver:4352 
+12-29 21:16:36.579  1403  1562 D _V_DisplayPowerControllerImpl: mSettingBrightness = -1.0 as request 0.12769696
+12-29 21:16:42.579  1403  3154 W UsageStatsService: Failed to query usage stats for locked user 0
+12-29 21:16:42.703  1403  3579 D _V_DisplayPowerControllerImpl: mSettingBrightness = -1.0 as request 0.12769696
+12-29 21:16:42.705  1403  3579 D _V_VibratorService: play Waveform
+12-29 21:16:42.705  1403  3579 D _V_VibratorService: Turning vibrator on for 350 ms with amplitude 255.
+12-29 21:16:43.307  1403  3579 D _V_VibratorService: Turning vibrator on for 350 ms with amplitude 255.
+12-29 21:16:43.663  1403  3579 D _V_VibratorService: Vibration finished, cleaning up
+12-29 21:16:43.663  1403  3579 D _V_VibratorService: Turning vibrator off.
+12-29 21:16:43.666  1403  3579 D _V_DisplayPowerControllerImpl: mSettingBrightness = -1.0 as request 0.12769696
+12-29 21:46:40.423  1403  1453 W ActivityManager: Slow operation: 579ms so far, now at startProcess: done updating battery stats
+12-29 21:47:01.579  1403  1506 E VgcUtil : getFile name :theme_dir_pathnot exit in vgc_path_config.xml
+12-29 21:47:19.579  1403  2482 W _V_PackageManager: setEnabledSetting  packageName:com.facebook.appmanager className:com.facebook.oxygen.appmanager.firstparty.tos.ShouldShowExplicitTos newState:2 userId:0 callingPackage:null callingUid:10115 callingPid:8209
+12-29 21:47:21.579  1403  1453 I ActivityManager: Start proc 8466:com.google.android.apps.nbu.files/u0a177 for broadcast {com.google.android.apps.nbu.files/com.google.android.apps.nbu.files.gateway.pdf.DisablePdfPreviewActivityReceiver_Receiver}
+12-29 21:47:32.579  1403  1432 I _V_SettingsProvider: insert settings success:false, table:SETTINGS_SECURE name:enabled_notification_listeners value:com.google.android.projection.gearhead/com.google.android.gearhead.notifications.SharedNotificationListenerManager$ListenerService:com.cleaner.boost.junk.system/com.cleaner.boost.junk.system.serv.NotiListenerService:com.android.launcher3/com.android.launcher3.notification.NotificationListener:com.vivo.pushservice/com.vivo.push.util.NotificationMonitor pkg:android userId:0
+12-29 21:47:32.579  1403  1432 I _V_SettingsProvider: insert settings success:false, table:SETTINGS_SECURE name:enabled_notification_assistant value:com.google.android.ext.services/android.ext.services.notification.Assistant pkg:android userId:0
+12-29 21:47:39.579  1403  2383 E VgcUtil : getFile name :theme_dir_pathnot exit in vgc_path_config.xml
+12-29 21:47:42.113  2579  2579 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1697 android.content.ContextWrapper.startService:720 android.content.ContextWrapper.startService:720 com.vivo.smartmultiwindow.receiver.BootReceiver.onReceive:79 android.app.ActivityThread.handleReceiver:4352 
+12-29 22:20:27.579  1403  1652 E _V_SarPowerStateService: sarcode 222222222
+12-29 22:20:27.579  1403  1652 E _V_SarPowerStateService: SAR_ForceNear！
+12-29 23:20:21.579  1403  5110 E VgcUtil : getFile name :theme_dir_pathnot exit in vgc_path_config.xml
+12-30 00:05:34.055  1403  1431 E _V_VivoVibratorServiceImpl: onProcessDied pid: 25579,uid: 10105
+12-30 00:12:23.081  1403  1403 I AnyMotionDetector: Accumulated vector timeMillisSinceBoot=10598621 | x=-0.15900001, y=0.14205001, z=9.783, runningSum = timeMillisSinceBoot=10598621 | x=-7.014901, y=6.1122, z=410.7001, incrementalEnergy = 2.457914E-4, energy = 0.0057962975
+12-30 00:12:25.579  1403  5102 E VgcUtil : getFile name :theme_dir_pathnot exit in vgc_path_config.xml
+12-30 01:16:02.477  1403  1431 E _V_VivoVibratorServiceImpl: onProcessDied pid: 25797,uid: 10183
+12-30 03:45:56.579  1403  2054 E VgcUtil : getFile name :theme_dir_pathnot exit in vgc_path_config.xml
+12-30 06:15:57.579  1403  2054 E VgcUtil : getFile name :theme_dir_pathnot exit in vgc_path_config.xml
+12-30 06:32:12.579  1403  1677 E ActivityThread: Failed to find provider info for com.bbk.iqoo.logsystemes
+12-30 06:35:27.579  1403  1677 E ActivityThread: Failed to find provider info for com.bbk.iqoo.logsystemes
+12-30 06:56:22.630  9579  9579 E VgcUtil : getFile name :theme_dir_pathnot exit in vgc_path_config.xml
+12-30 06:56:22.637  9579  9579 E VgcUtil : getFile name :theme_dir_pathnot exit in vgc_path_config.xml
+12-30 06:56:22.661  9579  9579 E VgcUtil : getFile name :theme_dir_pathnot exit in vgc_path_config.xml
+12-30 06:56:22.832  1403  1431 E _V_VivoVibratorServiceImpl: onProcessDied pid: 9579,uid: 10049
+12-30 09:18:06.897  1403  1403 E AutoBrightnessSynchronizer: MSG_UPDATE_INT 0.15791693
+12-30 09:52:22.579 21850 21850 E VgcUtil : getFile name :theme_dir_pathnot exit in vgc_path_config.xml
+12-30 10:00:51.579  1403  5102 I chatty  : uid=1000(system) Binder:1403_19 identical 3 lines
+12-30 10:30:30.579  1403  1431 E _V_VivoVibratorServiceImpl: onProcessDied pid: 24097,uid: 10049
+12-30 10:57:40.579  1403  1431 E _V_VivoVibratorServiceImpl: onProcessDied pid: 26890,uid: 10246
+12-30 11:18:35.579  1403  1506 E VgcUtil : getFile name :theme_dir_pathnot exit in vgc_path_config.xml
+12-30 12:24:22.579  1403  2173 E VgcUtil : getFile name :theme_dir_pathnot exit in vgc_path_config.xml
+12-30 12:29:22.579  1403  5880 E VgcUtil : getFile name :theme_dir_pathnot exit in vgc_path_config.xml
+12-30 15:42:15.109  1403  1431 E _V_VivoVibratorServiceImpl: onProcessDied pid: 5791,uid: 10256
+12-30 18:40:52.579  1403  2574 E VgcUtil : getFile name :theme_dir_pathnot exit in vgc_path_config.xml
+12-30 19:13:39.073  1403  1403 E AutoBrightnessSynchronizer: MSG_UPDATE_INT 0.15791693
+12-30 19:53:31.579  1403  1652 E _V_SarPowerStateService: sarcode 222222222
+12-30 19:53:31.579  1403  1652 E _V_SarPowerStateService: SAR_ForceNear！
+12-30 19:58:12.579  1403  3596 E ActivityThread: Failed to find provider info for com.bbk.iqoo.logsystemes
+12-30 21:08:47.579  1403  2170 E VgcUtil : getFile name :theme_dir_pathnot exit in vgc_path_config.xml
+12-30 22:53:11.579  1403  1652 E _V_SarPowerStateService: sarcode 222222222
+12-30 22:55:07.579  1403  1652 E _V_SarPowerStateService: sarcode 222222222
+12-30 22:55:07.579  1403  1652 E _V_SarPowerStateService: SAR_ForceNear！
+12-30 23:23:24.579  1403  1611 E VgcUtil : getFile name :theme_dir_pathnot exit in vgc_path_config.xml
+12-30 23:29:34.579  1403  1652 E _V_SarPowerStateService: sarcode 222222222
+12-30 23:38:39.579   636  1073 V APM_AudioPolicyManager: selectOutputForMusicEffects selected output 13
+12-30 23:38:39.579   636  1073 V APM_AudioPolicyManager: getNewOutputDevices selected devices {type:0x2,@:}
+12-30 23:40:43.832 20156 20156 E _V_SensorManager: unregisterListenerImpl listener=com.facebook.ads.redexgen.X.8u@a4579asensor=NULL num: 1
+12-30 23:41:38.579   636   983 V APM_AudioPolicyManager: selectOutputForMusicEffects selected output 13
+12-30 23:43:12.579   636  1211 E _V_FeatureManager: erro!!,gFeatureNotifyCallback = NULL 
+12-30 23:54:33.579   447   454 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup28: Permission denied
+12-31 02:32:37.579  1794  1810 E _V_VPM  : VivoPermissionService is null!
+12-31 03:17:31.579  1403  4774 I _V_Telecom: Telecom: PhoneAccountRegistrar: Modify account: [ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, ***, UserHandle{0}]
+12-31 04:08:22.152  1403  4775 V _V_AlarmAlign: setLocked to kernel, type = 3, when = 111457951, curTime = 111157692
+12-31 04:08:22.378  1403  5881 V _V_AlarmAlign: setLocked to kernel, type = 2, when = -111, curTime = 111157918
+12-31 04:08:22.399  1403  2483 V _V_AlarmAlign: setLocked to kernel, type = 2, when = -111, curTime = 111157939
+12-31 04:08:22.401  1403  5880 V _V_AlarmAlign: setLocked to kernel, type = 2, when = -111, curTime = 111157941
+12-31 04:08:22.401  1403  5880 V _V_AlarmAlign: setLocked to kernel, type = 2, when = -111, curTime = 111157941
+12-31 04:08:22.401  1403  5880 V _V_AlarmAlign: setLocked to kernel, type = 3, when = -111, curTime = 111157941
+12-31 04:50:52.579   656   656 E ccci_rpcd: Failed to read from RPC device (-1) !! errno = 4
+12-31 05:45:01.518 31554 31579 E ActivityThread: Failed to find provider info for com.vivo.awarecontext.awareeventprovider
+12-31 06:22:34.579   447   454 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup26: Permission denied
+12-31 08:31:43.579  1403  1433 E _V_SensorManager: unregisterListenerImpl listener=com.android.server.display.DisplayModeDirector$BrightnessObserver$LightSensorEventListener@36db676sensor=NULL num: 0
+12-31 09:01:38.579  2055  2419 E IMGSRV  : :53: GetCmdlineFileContents: Failed to open /proc/569/cmdline (No such file or directory)
+12-31 09:03:00.579  2055  2419 E IMGSRV  : :53: GetCmdlineFileContents: Failed to open /proc/569/cmdline (No such file or directory)
+12-31 09:05:00.186   932  1077 E android.hardware.sensors@2.0-service-mediatek: akm_log setv_acc(720/g) -6, 3, 720 ts 128955724579
+12-31 09:05:33.579  2055  2199 E IMGSRV  : :53: GetCmdlineFileContents: Failed to open /proc/569/cmdline (No such file or directory)
+12-31 09:05:38.579  2055  2419 I chatty  : uid=10155(com.vivo.gallery) identical 28 lines
+12-31 09:05:42.579  2802  2802 E oadcastreceive: Not starting debugger since process cannot load the jdwp agent.
+12-31 09:08:02.893   932  1077 E android.hardware.sensors@2.0-service-mediatek: akm_log akl_getv_mag(uT) calimag: 26.160000, 32.579998, -2.400000, Lv: 3
+12-31 09:08:46.300   932  1077 E android.hardware.sensors@2.0-service-mediatek: akm_log setv_acc(720/g) -5, 3, 722 ts 129181838579
+12-31 09:09:49.579  2055  2419 E IMGSRV  : :53: GetCmdlineFileContents: Failed to open /proc/569/cmdline (No such file or directory)
+12-31 09:10:02.388   932  1077 E android.hardware.sensors@2.0-service-mediatek: akm_log setv_acc(720/g) -5, 3, 721 ts 129257926449
+12-31 09:10:07.873   932  1077 E android.hardware.sensors@2.0-service-mediatek: akm_log akl_getv_mag(uT) calimag: 22.799999, 32.579998, -9.780000, Lv: 3
+12-31 09:14:30.259   932  1077 E android.hardware.sensors@2.0-service-mediatek: akm_log setv_acc(720/g) -6, 3, 721 ts 129525795825
+12-31 09:15:24.043   932  1077 E android.hardware.sensors@2.0-service-mediatek: akm_log setv_acc(720/g) -9, -3, 723 ts 129579578954
+12-31 09:15:24.233   932  1077 E android.hardware.sensors@2.0-service-mediatek: akm_log setv_mag(uT) 91.950005, -53.250004, 20.250000  ts 129579771440 
+12-31 09:16:00.579   932  1077 E android.hardware.sensors@2.0-service-mediatek: akm_log setv_acc(720/g) -10, 3, 720 ts 129616112080
+12-31 09:16:50.255   932  1077 E android.hardware.sensors@2.0-service-mediatek: akm_log setv_mag(uT) 89.700005, -54.300003, 20.550001  ts 129665791433 
+12-31 09:17:25.579   932  1077 E android.hardware.sensors@2.0-service-mediatek: akm_log akl_getv_mag(uT) calimag: 17.279999, 12.240000, -2.100000, Lv: 3
+12-31 09:17:25.579   932  1077 E android.hardware.sensors@2.0-service-mediatek: akm_log akl_getv_mag(uT) offset: 71.220001, -67.860001, 27.779999
+12-31 09:17:25.820   932  1077 E android.hardware.sensors@2.0-service-mediatek: akm_log setv_acc(720/g) -9, 4, 721 ts 129701357954
+12-31 09:17:26.579   932  1077 E android.hardware.sensors@2.0-service-mediatek: akm_log setv_mag(uT) 89.250000, -53.550003, 19.800001  ts 129702111452 
+12-31 09:21:16.220   932  1077 E android.hardware.sensors@2.0-service-mediatek: akm_log setv_acc(720/g) -9, 3, 720 ts 129931757965
+12-31 09:22:04.579   932  1077 E android.hardware.sensors@2.0-service-mediatek: akm_log setv_mag(uT) 90.900002, -54.750004, 19.500000  ts 129980111045 
+12-31 09:22:04.579   932  1077 E android.hardware.sensors@2.0-service-mediatek: akm_log akl_getv_mag(uT) calimag: 15.960000, 11.700000, -3.000000, Lv: 3
+12-31 09:22:04.579   932  1077 E android.hardware.sensors@2.0-service-mediatek: akm_log akl_getv_mag(uT) offset: 71.220001, -67.860001, 27.779999
+12-31 09:22:07.579   932  1077 E android.hardware.sensors@2.0-service-mediatek: akm_log setv_mag(uT) 88.500000, -54.300003, 21.000000  ts 129983111439 
+12-31 09:22:07.579   932  1077 E android.hardware.sensors@2.0-service-mediatek: akm_log akl_getv_mag(uT) calimag: 15.120000, 11.880000, -1.920000, Lv: 3
+12-31 09:22:08.579   932  1077 E android.hardware.sensors@2.0-service-mediatek: akm_log setv_mag(uT) 88.950005, -55.200001, 19.800001  ts 129984111452 
+12-31 09:22:11.044   932  1077 E android.hardware.sensors@2.0-service-mediatek: akm_log setv_acc(720/g) -9, 4, 722 ts 129986579939
+12-31 09:22:46.579   932  1077 E android.hardware.sensors@2.0-service-mediatek: akm_log setv_acc(720/g) -9, 3, 720 ts 130022110878
+12-31 09:23:22.419   932  1077 E android.hardware.sensors@2.0-service-mediatek: akm_log setv_mag(uT) 89.550003, -53.850002, 20.850000  ts 130057951451 
+12-31 09:24:40.255   932  1077 E android.hardware.sensors@2.0-service-mediatek: akm_log setv_mag(uT) 89.550003, -52.200001, 19.650002  ts 130135791412 
+12-31 09:25:35.092   932  1077 E android.hardware.sensors@2.0-service-mediatek: akm_log setv_acc(720/g) -8, 4, 721 ts 130190624579
+12-31 09:26:42.399   932  1077 E android.hardware.sensors@2.0-service-mediatek: akm_log setv_mag(uT) 89.850006, -54.900002, 20.400002  ts 130257931425 
+12-31 09:28:00.259   932  1077 E android.hardware.sensors@2.0-service-mediatek: akm_log setv_acc(720/g) -9, 4, 720 ts 130335793841
+12-31 09:28:37.579   932  1077 E android.hardware.sensors@2.0-service-mediatek: akm_log setv_mag(uT) 89.250000, -54.750004, 18.750000  ts 130373111428 
+12-31 09:28:37.579   932  1077 E android.hardware.sensors@2.0-service-mediatek: akm_log akl_getv_mag(uT) calimag: 16.199999, 11.460000, -2.640000, Lv: 3
+12-31 09:30:02.417   932  1077 E android.hardware.sensors@2.0-service-mediatek: akm_log setv_mag(uT) 89.250000, -54.300003, 21.450001  ts 130457952598 
+12-31 09:30:17.579   932  1077 E android.hardware.sensors@2.0-service-mediatek: akm_log setv_mag(uT) 90.450005, -53.250004, 19.050001  ts 130473111421 
+12-31 09:30:17.579   932  1077 E android.hardware.sensors@2.0-service-mediatek: akm_log akl_getv_mag(uT) calimag: 15.540000, 12.660000, -2.700000, Lv: 3
+12-31 09:30:18.579   932  1077 E android.hardware.sensors@2.0-service-mediatek: akm_log setv_mag(uT) 88.500000, -53.550003, 20.250000  ts 130474111422 
+12-31 09:30:19.353   932  1077 E android.hardware.sensors@2.0-service-mediatek: akm_log setv_acc(720/g) -10, 4, 722 ts 130474890579
+12-31 09:30:43.722   932  1077 E android.hardware.sensors@2.0-service-mediatek: akm_log setv_acc(720/g) -12, 4, 721 ts 130499257937
+12-31 09:31:42.373   932  1077 E android.hardware.sensors@2.0-service-mediatek: akm_log setv_mag(uT) 88.500000, -55.200001, 21.000000  ts 130557910984 
+12-31 09:31:58.579   932  1077 E android.hardware.sensors@2.0-service-mediatek: akm_log setv_mag(uT) 88.650002, -56.100002, 18.900002  ts 130574111345 
+12-31 09:31:58.579   932  1077 E android.hardware.sensors@2.0-service-mediatek: akm_log akl_getv_mag(uT) calimag: 15.599999, 12.120000, -2.460000, Lv: 3
+12-31 09:32:03.615   932  1077 E android.hardware.sensors@2.0-service-mediatek: akm_log setv_mag(uT) 89.250000, -54.300003, 19.050001  ts 130579151671 
+12-31 09:32:03.935   932  1077 E android.hardware.sensors@2.0-service-mediatek: akm_log setv_acc(720/g) -9, 4, 720 ts 130579466623
+12-31 09:33:22.415   932  1077 E android.hardware.sensors@2.0-service-mediatek: akm_log setv_mag(uT) 89.850006, -53.400002, 19.350000  ts 130657951401 
+12-31 09:33:52.579   932  1077 E android.hardware.sensors@2.0-service-mediatek: akm_log setv_acc(720/g) -8, 5, 722 ts 130688113695
+12-31 09:34:50.257   932  1077 E android.hardware.sensors@2.0-service-mediatek: akm_log setv_mag(uT) 89.550003, -54.900002, 18.900002  ts 130745792646 
+12-31 09:35:02.439   932  1077 E android.hardware.sensors@2.0-service-mediatek: akm_log setv_mag(uT) 89.100006, -54.150002, 20.850000  ts 130757971428 
+12-31 09:35:18.579   932  1077 E android.hardware.sensors@2.0-service-mediatek: akm_log setv_mag(uT) 90.000000, -53.250004, 19.800001  ts 130774111415 
+12-31 09:36:42.394   932  1077 E android.hardware.sensors@2.0-service-mediatek: akm_log setv_mag(uT) 88.650002, -54.900002, 20.400002  ts 130857931401 
+12-31 09:36:56.579   932  1077 E android.hardware.sensors@2.0-service-mediatek: akm_log setv_mag(uT) 87.750000, -52.800003, 20.250000  ts 130872111406 
+12-31 09:39:13.579   568   989 E libnetd_resolv: QUERY_RESOLV_NETID command.uid:10184, nid:0
+12-31 09:53:37.579   447   454 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup28: Permission denied
+12-31 10:25:18.579   447   454 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup28: Permission denied
+12-31 10:25:28.579   447   454 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup27: Permission denied
+12-31 10:50:04.928  8579  8579 E ileged_process: Not starting debugger since process cannot load the jdwp agent.
+12-31 10:51:34.042   932  1077 E android.hardware.sensors@2.0-service-mediatek: akm_log setv_mag(uT) 113.100006, -60.900002, 24.750002  ts 135349579644 
+12-31 10:56:27.041   932  1077 E android.hardware.sensors@2.0-service-mediatek: akm_log setv_mag(uT) 113.100006, -59.400002, 25.950001  ts 135642579597 
+12-31 10:56:28.041   932  1077 E android.hardware.sensors@2.0-service-mediatek: akm_log setv_mag(uT) 114.450005, -61.800003, 24.600000  ts 135643579621 
+12-31 10:56:29.041   932  1077 E android.hardware.sensors@2.0-service-mediatek: akm_log setv_mag(uT) 113.850006, -61.200001, 25.500002  ts 135644579628 
+12-31 10:56:34.101   932  1077 E android.hardware.sensors@2.0-service-mediatek: akm_log akl_getv_mag(uT) calimag: 38.579998, 5.220000, 3.000000, Lv: 3
+12-31 10:58:22.458   932  1077 E android.hardware.sensors@2.0-service-mediatek: akm_log setv_acc(720/g) -6, -13, 718 ts 135757994469
+12-31 10:58:22.461   932  1077 E android.hardware.sensors@2.0-service-mediatek: akm_log setv_mag(uT) 78.600006, -17.250000, 29.400002  ts 135757999626 
+12-31 11:14:44.069   932  1077 E android.hardware.sensors@2.0-service-mediatek: akm_log akl_getv_mag(uT) calimag: 3.060000, 47.579998, 7.920000, Lv: 3
+12-31 11:18:06.053   932  1077 E android.hardware.sensors@2.0-service-mediatek: akm_log setv_mag(uT) 81.450005, -38.850002, 42.450001  ts 136941579614 
+12-31 11:32:18.203   932  1077 E android.hardware.sensors@2.0-service-mediatek: akm_log setv_mag(uT) 36.900002, -58.800003, 23.100000  ts 137793739579 
+12-31 11:37:35.673  1403  1431 E _V_VivoVibratorServiceImpl: onProcessDied pid: 8579,uid: 10184
+12-31 11:38:34.753   932  1077 E android.hardware.sensors@2.0-service-mediatek: akm_log akl_getv_mag(uT) calimag: -35.579998, 10.080000, 3.000000, Lv: 3
+12-31 11:42:40.268   932  1077 E android.hardware.sensors@2.0-service-mediatek: akm_log setv_mag(uT) 37.200001, -60.300003, 25.350000  ts 138415799606 
+12-31 11:45:53.043   932  1077 E android.hardware.sensors@2.0-service-mediatek: akm_log setv_mag(uT) 38.550003, -60.450001, 22.950001  ts 138608579558 
+12-31 11:51:11.579  1105  1166 E VoLTE IMSM: Interrupt happen Interrupted system call (4) (module/mdagent/volte_imsm_93/src/imsmmd.c:2952)
+12-31 11:51:11.579  1117  1171 E VoLTE IMCB-CM: RECEIVE error code: EINTR, Need to retry #51
+12-31 11:59:40.120   932  1077 E android.hardware.sensors@2.0-service-mediatek: akm_log setv_acc(720/g) -36, 87, 716 ts 139435657944
+12-31 12:06:27.579   932  1077 E android.hardware.sensors@2.0-service-mediatek: akm_log setv_acc(720/g) -35, 87, 715 ts 139843117529
+12-31 12:12:21.579   568   989 E libnetd_resolv: QUERY_RESOLV_NETID command.uid:10205, nid:0
+12-31 12:12:22.381   932  1077 E android.hardware.sensors@2.0-service-mediatek: akm_log akl_getv_mag(uT) calimag: -41.579998, 13.020000, 10.139999, Lv: 3
+12-31 12:12:24.401   932  1077 E android.hardware.sensors@2.0-service-mediatek: akm_log akl_getv_mag(uT) calimag: -41.579998, 11.880000, 10.320000, Lv: 3
+12-31 12:14:57.641   932  1077 E android.hardware.sensors@2.0-service-mediatek: akm_log akl_getv_mag(uT) calimag: -41.579998, 11.820000, 10.740000, Lv: 3
